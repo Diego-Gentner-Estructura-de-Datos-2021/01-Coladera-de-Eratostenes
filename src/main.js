@@ -1,5 +1,4 @@
 import Erathostenes from './sieve-of-eratosthenes.js';
 
-let erathostenes = new Erathostenes(16657);
-
+let erathostenes = new Erathostenes(1000);
 console.log(erathostenes.getPrimes());
